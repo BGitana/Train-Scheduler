@@ -1,0 +1,22 @@
+body {
+  background: url(../background.jpg);
+}
+.card {
+  opacity: 0.85;
+  font-weight: bold;
+}
+.jumbotron {
+  background: white;
+  opacity: 0.8;
+  font-family: fantasy;
+}
+h1 {
+  font-size: 80px;
+  font-weight: bolder;
+  color: green;
+}
+.card-header {
+  font-family: fantasy;
+  font-size: 25px;
+  padding-top: 15px;
+}
