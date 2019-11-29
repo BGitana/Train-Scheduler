@@ -1,163 +1,300 @@
-
 * {
-    box-sizing: border-box;
-  }
-
-  
-  body{
-    background-color:  rgb(252, 249, 247); 
-  }
-
-  #logo{
-    background-image: url("/images/logo-grj.png");
-    position: absolute;
-    height: 140px;
-    width: 800px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-   margin-left: 5%;
-   margin-right: 5%;
-   text-shadow: -1px -1px 1px #fff, 1px 1px 10px #000;
-   /* box-shadow: -1px -1px 1px #fff, 1px 1px 5px #000; */
-  }
-
-  .jumbotron{
-    background-image: url("/images/pexels-photo-207300.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-size: -35%;
-    box-shadow: inset 10px 10px 20px black;
-    box-shadow: inset 0 0 100px black;
-    opacity: 0.9;
-    z-index: -3;
-  }
-
-  h3{
-    margin-bottom: 70px;
-  }
-  
-  .debossed {
-   color: rgb(247, 245, 237);
-   letter-spacing: 0.1rem;
-   text-shadow: 1px 1px 3px #000;
-   font-family: Arial, Helvetica, sans-serif;
-   font-size: 35px;
-  }
-
-
-
-  /* header */
-
-
-  
-  #container1{
-    width: 80%;
-    margin: auto;
-    overflow: hidden;
-  }
-  
-
-  .bannerbox {
-   height: 300px;
-   width: 90%;
-   margin: 20px auto 10px auto;
-   background-color: #613514;
-   border-radius: 0.5ex;
-   display: flex;
-  }
-
-  /* header */
-
-
-  #container{
-    width: 80%;
-    margin: auto;
-    overflow: hidden;
-  }
- 
-  .card-header{
-    text-align: left;
-    background-color: rgb(11, 110, 216);
-    color: rgb(255, 245, 235);
-    margin-bottom: 0em;
-    padding: 20px 80px;
-    box-shadow: inset 10px 10px 20px black;
-    box-shadow: inset 0 0 100px black;
-  }
-
-  .card-body {
-   border: 2px solid rgb(11, 110, 216);
-   /* border-radius: 0.5ex; */
-   border-bottom-left-radius: 0.5ex;
-   border-bottom-right-radius: 0.5ex;
-   box-shadow: inset 10px 10px 20px black;
-   box-shadow: inset 0 0 100px black;
-   background-color: rgb(255, 245, 235);
-   padding: 50px 80px;
-  }
-
-  td{
-    color: black;
-    opacity: 0.5;
-    z-index: 3;
-    box-shadow: inset 2px 2px 5px black;
-  }
-
-  th{
-    color: black;
-    opacity: 0.5;
-    z-index: 3;
-    box-shadow: inset 2px 2px 5px black;
-  }
-
-  .form-group{
-    text-align: left;
-  }
-
-  .form-control{
-    text-align: left;
-    box-shadow: inset 2px 2px 5px black;
-    /* box-shadow: inset 2px 2px 5px black; */
-    /* box-shadow: inset 0 0 100px black; */
-    background-color: rgb(255, 245, 235);
-    opacity: 0.5;
-    
-  }
-
-  label {
-    padding-top: 20px;
-    color: black;
-    opacity: 0.5;
-    z-index: 3;
-    font-weight: bold;
-  }
-
-  .btn{
-    text-align: left;
-    margin: 20px 0px;
-  }
-
-  .btn-primary{
-    color: rgb(255, 245, 235);
-    box-shadow: inset 10px 10px 20px black;
-    box-shadow: inset 0 0 40px black;
+  box-sizing: border-box;
 }
 
-)
+body {
+  background-color: rgb(252, 249, 247);
+}
 
-  .wraper{
+#logo {
+  background-image: url("/images/logo-grj.png");
+  position: absolute;
+  height: 140px;
+  width: 800px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-left: 5%;
+  margin-right: 5%;
+  text-shadow: -1px -1px 1px #fff, 1px 1px 10px #000;
+  /* box-shadow: -1px -1px 1px #fff, 1px 1px 5px #000; */
+}
+
+.jumbotron {
+  background-image: url("/images/pexels-photo-207300.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-size: -35%;
+  box-shadow: inset 10px 10px 20px black;
+  box-shadow: inset 0 0 100px black;
+  opacity: 0.9;
+  z-index: -3;
+}
+
+h3 {
+  margin-bottom: 70px;
+}
+
+.debossed {
+  color: rgb(247, 245, 237);
+  letter-spacing: 0.1rem;
+  text-shadow: 1px 1px 3px #000;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 35px;
+}
+
+/* header */
+
+
+#container1 {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+.bannerbox {
+  height: 300px;
+  width: 90%;
+  margin: 20px auto 10px auto;
+  background-color: #613514;
+  border-radius: 0.5ex;
+  display: flex;
+}
+
+/* header */
+
+#container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+.card-header {
+  text-align: left;
+  background-color: rgb(11, 110, 216);
+  color: rgb(255, 245, 235);
+  margin-bottom: 0em;
+  padding: 20px 80px;
+  box-shadow: inset 10px 10px 20px black;
+  box-shadow: inset 0 0 100px black;
+}
+
+.card-body {
+  border: 2px solid rgb(11, 110, 216);
+  /* border-radius: 0.5ex; */
+  border-bottom-left-radius: 0.5ex;
+  border-bottom-right-radius: 0.5ex;
+  box-shadow: inset 10px 10px 20px black;
+  box-shadow: inset 0 0 100px black;
+  background-color: rgb(255, 245, 235);
+  padding: 50px 80px;
+}
+
+.table {
+  cursor: pointer;
+}
+
+td {
+  color: black;
+  opacity: 0.5;
+  z-index: 3;
+  box-shadow: inset 2px 2px 5px black;
+}
+
+th {
+  color: black;
+  opacity: 0.5;
+  z-index: 3;
+  box-shadow: inset 2px 2px 5px black;
+}
+
+.form-group {
+  text-align: left;
+}
+
+.form-control {
+  text-align: left;
+  box-shadow: inset 2px 2px 5px black;
+  /* box-shadow: inset 2px 2px 5px black; */
+  /* box-shadow: inset 0 0 100px black; */
+  background-color: rgb(255, 245, 235);
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+label {
+  padding-top: 20px;
+  color: black;
+  opacity: 0.5;
+  z-index: 3;
+  font-weight: bold;
+}
+
+.btn {
+  text-align: left;
+  margin: 20px 0px;
+}
+
+.btn-primary {
+  color: rgb(255, 245, 235);
+  box-shadow: inset 10px 10px 20px black;
+  box-shadow: inset 0 0 40px black;
+}
+
+/* .wraper{
     height: 20px;
   }
 
   .wraper1{
     height: 60px;
-   }
- 
+   } */
 
-  @media (min-with; 900px){
+/* @media (min-with; 900px){
     .call-outs-container {
      display: flex;
      justify-content: space-between;
-    } 
+    }  */
+
+
+    /*//////////// Flip Clock & Countdown////////// */
+
+/* html { height: 100%; }
+body { 
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.flip-clock {
+  text-align: center;
+  perspective: 400px;
+  margin: 20px auto;
+  
+  *,
+  *:before,
+  *:after { box-sizing: border-box;}
+}
+
+
+.flip-clock__piece {
+  display: inline-block;
+  margin: 0 5px;
+}
+
+.flip-clock__slot {
+  font-size: 2vw;
+}
+
+@halfHeight: 0.72em;
+@borderRadius: 0.15em;
+
+.card_clock {
+  display: block;
+  position: relative;
+  padding-bottom: @halfHeight;
+  font-size: 9vw;
+  line-height: 0.95;
+}
+
+.card__top,
+.card__bottom,
+.card__back::before,
+.card__back::after {
+  display: block;
+  height: @halfHeight;
+  color: #ccc;
+  background: #222;
+  padding: 0.25em 0.25em;
+  border-radius: @borderRadius @borderRadius 0 0;
+  backface-visiblity: hidden;
+  transform-style: preserve-3d;
+  width: 1.8em;
+  transform: translateZ(0);
+}
+
+.card__bottom {
+  color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  border-top: solid 1px #000;
+  background: #393939;
+  border-radius: 0 0 @borderRadius @borderRadius;
+  pointer-events: none;
+  overflow: hidden;
+}
+
+.card__bottom::after {
+  display: block;
+  margin-top: -@halfHeight;
+}
+
+.card__back::before,
+.card__bottom::after {
+  content: attr(data-value);
+}
+
+.card__back {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  left: 0%;
+  pointer-events: none;
+}
+
+.card__back::before {
+  position: relative;
+  z-index: -1;
+  overflow: hidden;
+}
+
+.flip .card__back::before {
+  animation: flipTop 0.3s cubic-bezier(0.37, 0.01, 0.94, 0.35);
+  animation-fill-mode: both;
+  transform-origin: center bottom;
+}
+
+.flip .card__back .card__bottom {
+  transform-origin: center top;
+  animation-fill-mode: both;
+  animation: flipBottom 0.6s cubic-bezier(0.15, 0.45, 0.28, 1); // 0.3s;
+}
+
+@keyframes flipTop {
+  0% {
+    transform: rotateX(0deg);
+    z-index: 2;
+  }
+  0%,
+  99% {
+    opacity: 0.99;
+  }
+  100% {
+    transform: rotateX(-90deg);
+    opacity: 0;
+  }
+}
+
+@keyframes flipBottom {
+  0%,
+  50% {
+    z-index: -1;
+    transform: rotateX(90deg);
+    opacity: 0;
+  }
+  51% {
+    opacity: 0.99;
+  }
+  100% {
+    opacity: 0.99;
+    transform: rotateX(0deg);
+    z-index: 5;
+  }
+} */
+
+/*//////////// Flip Clock & Countdown////////// */
+
