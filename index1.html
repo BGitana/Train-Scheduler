@@ -25,16 +25,18 @@
       rel="stylesheet"
     />
 
-    <!-- <style>
-        body { margin:0; padding:0; }
-        #map { position:absolute; top:0; bottom:0; width:100%; }
-    </style> -->
-
     <!-- Custom styling for this template -->
     <link rel="stylesheet" href="css/style1.css" />
 
     <!--Firebase Link-->
     <script src="https://www.gstatic.com/firebasejs/5.5.8/firebase.js"></script>
+
+    <!-- Firebase Core JavaScript Link -->
+    <script src="https://www.gstatic.com/firebasejs/6.0.4/firebase-app.js"></script>
+
+    <!-- Specific Firebase products we want (Database) -->
+    <script src="https://www.gstatic.com/firebasejs/6.0.4/firebase-database.js"></script>
+
 
     
     
@@ -61,6 +63,7 @@
                 <th scope="col">Frequency (min)</th>
                 <th scope="col">Next Arrival</th>
                 <th scope="col">Minutes Away</th>
+                <!-- <th scope="col">Delete</th> -->
               </tr>
             </thead>
             <tbody id="full-table">
@@ -70,6 +73,11 @@
                 <td id="frequency"></td>
                 <td id="next-arrival"></td>
                 <td id="minutes-away"></td>
+                <!-- <td id="delete">
+                  <button class="btn btn-primary" id="reset-button" type="reset">
+                    Delete
+                  </button> -->
+                </td>
               </tr>
             </tbody>
           </table>
@@ -81,6 +89,18 @@
       <div class="card border-primary mb-3">
         <div class="card-header bg-primary">Add Train</div>
         <div class="card-body">
+            <form>
+                <div class="form-row">
+                  <div class="col">
+                    <input type="text" class="form-control" placeholder="First name">
+                  </div>
+                  <div class="col">
+                    <input type="text" class="form-control" placeholder="Last name">
+                  </div>
+                </div>
+              </form>
+
+
           <form
             method="POST"
             action="form-handler"
